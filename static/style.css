@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#chat-window {
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#input-pergunta {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.feedback-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#chat-window p {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#chat-window .user-message {
+    background-color: #e1f5fe;
+    text-align: left;
+}
+
+#chat-window .bot-response {
+    background-color: #c8e6c9;
+    text-align: left;
+}
+
+#chat-window strong {
+    display: block;
+    font-weight: bold;
+}
+
+/* Estilizando botões de feedback */
+.feedback-buttons button {
+    font-size: 24px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.feedback-buttons button:hover {
+    background-color: #fdd835;
+}
